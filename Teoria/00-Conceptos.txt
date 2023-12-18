@@ -1,0 +1,56 @@
+React: una biblioteca de JS de codigo abierto diseñada para crear interfaces de usuario.
+    Ventajas:
+        -Facil de aprender y usar.
+        -Componentes reutilizables.
+        -Crear aplicaciones dinámicas.
+        -Buen desempeño.
+
+Biblioteca(Library)= es un conjunto de implementaciones o subprogramas que podemos usar 
+en nuestro código.
+------------------------------------------------------------------------------------------------
+Componente: parte de la interfaz de usuario que es independiente y reusable.
+Los componentes en React están "hechos" de elementos.
+    Funcionaes: Funcion de JS/ES6 que retorna un elemento de JSX. Más fácil y muy poderoso.
+    De clase: Clase de JS/ES6 que retorna un elemento JSX. En versiones anteriores.
+        -Características:
+            -Debe extender React.Component
+            -Debe tener un método render() para retornar un elemento de JSX.
+            -Puede recibir valores si es necesario.
+
+Reglas de JSX:
+    -Debe retornar un elemento React (JSX).
+    -Debe comenzar con una letra mayúscula.
+    -Puede recibir valores si es necesario.
+
+Props: argumentos que puede recibir un componente React. Solo pueden ser enviados de padre a hijo.
+    (Podemos recoger props del componente A en componente B pero no al reves.)
+
+Estado(State): Representación en JS del conjuto de propiedades de un componente y sus valores actuales. 
+    -Aquí "propiedades" NO se refiere a los props, sino a info que se representa sobre el componente.
+(Antes se usaba componente de clase para poder trabajar con estados)
+
+Hooks(Gancho): fn especial que permite agregar estados y aspectos a nuestros componentes funcionales.
+todo esto sin escribir un componente de clase. Esto es mucho más conciso y fácil de entender.
+
+Event Listener(también Event Handler): fn en JS que es ejecutada cuando ocurre un evento específico.
+------------------------------------------------------------------------------------------------
+JSX(JavaScript XML): extensión de React para la sintaxis de JS. Permite describir en JS cómo se
+verán los componentes usando una estructura similar a HTML.(Es opcional.)
+    Ventajas:
+        -Estructura más fácil de visualizar.
+        -Errores y advertencias más útiles.
+
+Elemento: unidades más pequeñas y básicas en React. Definen lo que se ve en la pantalla.
+
+React DOM: Paquete que facilita la interación y actualización del DOM en aplicaciones React.
+
+Con JSX, se puede crear y usar cualquier elemento HTML
+
+En JSX, los elementos de HTML se representan con etiquetas en letras minúsculas.
+Los componentes definidos por el usuario comienzan con letra mayúscula.
+
+Atributos: podemos agregarlos para especificar ciertas características.
+
+
+Fuente: (Hasta 40:00)
+https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=2
