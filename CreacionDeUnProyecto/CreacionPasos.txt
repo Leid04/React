@@ -1,0 +1,2 @@
+1.Conformamos un paquete nuevo uniforme: npm init -y
+    Para permitir a la aplicacion consumir otras dependencias (paquetes)
