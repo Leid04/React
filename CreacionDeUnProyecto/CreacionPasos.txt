@@ -1,3 +1,4 @@
-1.Por NPM conformamos un paquete nuevo uniforme: npm init -y
-    Para permitir a la aplicacion consumir otras dependencias (paquetes)
-2.
+1.Por NPM conformamos un paquete nuevo uniforme para permitir a la aplicacion consumir otras dependencias (paquetes)
+    npm init -y
+2.Instalamos la dependencia React
+    npm install --save react
