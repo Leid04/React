@@ -2,6 +2,12 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
+Los proyectos se pueden crear rapidamente con:
+
+npx create-vite mi-app --template react         --> [npm install] npm run dev
+o
+npx create-react-app mi-app
+
 > [!TIP]
 >## 📚 Recursos para Estudiar React:
 
