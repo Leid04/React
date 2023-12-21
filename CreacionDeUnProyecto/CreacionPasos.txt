@@ -1,4 +1,51 @@
+parcel: recoge todas las relaciones que necesita nuestra APP y enviarlas a la carpteta dist/ para localhost
+
 1.Por NPM conformamos un paquete nuevo uniforme para permitir a la aplicacion consumir otras dependencias (paquetes)
     npm init -y
 2.Instalamos la dependencia React
     npm install --save react
+3.Instalamos parcel (bundler) -> cont + c para salir
+    npm install --save-dev parcel-bundler      o tambien yarn add -dev parcel-bundler 
+4.Inatalamos yarn si no lo tenemos (gestor de dependencias) y el fichero yarn.lock
+    npm install -g yarn
+    yarn install
+5.Definimos script para lanzar parcel, que nos va a runear el servidor localhost:1234
+    "scripts": {
+        "start": "parcel index.html"
+    },
+6.Instalamos react dom para renderizar lo que queremos mostrar en el navegador.
+    npm install --save react-dom
+7.Instalar Linting para manejo de errores
+    yarn add --dev eslint
+    eslint --init
+    ./node_modules/.bin/eslint --init
+y en scripts añadir:
+    "lint": "eslint --fix src/**/*.{js,jsx}"
+
+8.(si no da errores eslint se omite el paso).dependencia de desarrollo 
+    yarn add --dev eslint-config-airbnb
+
+9.(si no da errores despues del paso 8 se omite todo esto).dependencia de desarrollo 
+    yarn add --dev eslint-config-airbnb
+    yarn add --dev eslint-plugin-jsx-a11y
+    yarn add --dev eslint-plugin-react
+    yarn add --dev eslint-plugin-import
+
+10.Hacer el asegurado de codigo mediante commit
+    npm install --dev lint-staged husky
+            "husky": {
+                "hooks": {
+                    "pre-commit": "lint-staged"
+                }
+            },
+            "lint-staged": {
+                "src/**/*.{js,jsx}": [ "npm run lint" ]
+            }
+
+----------------------------------------------------------------------------------------------------------------
+Organizacion de carpetas: agrupar el codigo confirmando unidades logicas
+Proyect-folder/
+ src/    -> el codigo fuente(para desarrolladores)
+ dist/  -> el espejo de la compilacion (para navegadores)(no se suele entrar)
+package.json
+.all-config-files
