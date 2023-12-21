@@ -41,6 +41,32 @@ y en scripts añadir:
             "lint-staged": {
                 "src/**/*.{js,jsx}": [ "npm run lint" ]
             }
+11.Instalar prettier
+    npm install --dev prettier
+            {
+                ...
+                "scripts": {
+                    ...
+                    "format": "prettier --write \"*.{js,jsx,json,css}\""
+                },
+                "prettier": {
+                    "trailingComma": "all",
+                    "singleQuote": true
+                },
+            }
+11.Añadir la fase de formato.
+                {
+                ...
+                    "lint-staged": {
+                        "src/**/*.{js,jsx}": [
+                            "npm run lint"
+                        ],
+                        "src/**/*.{js,jsx,json,css,scss}": [
+                            "prettier --write",
+                        "git add"
+                        ]
+                    }
+                }
 
 ----------------------------------------------------------------------------------------------------------------
 Organizacion de carpetas: agrupar el codigo confirmando unidades logicas

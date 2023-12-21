@@ -6,22 +6,34 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "lint": "eslint --fix src/**/*.{js,jsx}"
+    "lint": "eslint --fix src/**/*.{js,jsx}",
+    "format": "prettier --write \"*.{js,jsx,json,css}\""
   },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+    },   
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
-    },
-    "lint-staged": {
-      "src/**/*.{js,jsx}": [ "npm run lint" ]
-    },
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "npm run lint"
+    ],
+    "src/**/*.{js,jsx,json,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
