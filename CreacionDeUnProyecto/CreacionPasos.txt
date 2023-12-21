@@ -5,8 +5,8 @@ parcel: recoge todas las relaciones que necesita nuestra APP y enviarlas a la ca
 2.Instalamos la dependencia React
     npm install --save react
 3.Instalamos parcel (bundler) -> cont + c para salir
-    npm install --save-dev parcel-bundler      o tambien yarn add -dev parcel-bundler 
-4.Inatalamos yarn si no lo tenemos (gestor de dependencias) y el fichero yarn.lock
+    yarn add -dev parcel-bundler 
+4.Inatalamos yarn si no lo tenemos (gestor de dependencias)
     npm install -g yarn
     yarn install
 5.Definimos script para lanzar parcel, que nos va a runear el servidor localhost:1234

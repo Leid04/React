@@ -28843,8 +28843,10 @@ if ("development" === 'production') {
 var _react = _interopRequireDefault(require("react"));
 var _reactDom = require("react-dom");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+// Importa React correctamente
+
 var root = document.querySelector("#root");
-var app = /*#__PURE__*/_react.default.createElement("div", null, "My wishlist from Reacafsdasdft");
+var app = /*#__PURE__*/_react.default.createElement("div", null, "My wishlist from React");
 var rootElement = (0, _reactDom.createRoot)(root);
 rootElement.render(app);
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -28872,7 +28874,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64396" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64699" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

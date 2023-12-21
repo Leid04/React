@@ -12,7 +12,7 @@
   "prettier": {
     "trailingComma": "all",
     "singleQuote": true
-    },   
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
