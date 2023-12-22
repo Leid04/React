@@ -51,6 +51,13 @@ Los componentes definidos por el usuario comienzan con letra mayúscula.
 
 Atributos: podemos agregarlos para especificar ciertas características.
 
+El atributo style acepta un objeto JS con propiedades CSS escritas en camelCase
+    Ej: background-image => backgroundImage
+------------------------------------------------------------------------------------------------
+Estructura:
 
-Fuente: (Hasta 40:00)
+Los elementos pueden ser anidados para estructuras mas complejas.
+
+
+Fuente: (Hasta 2:12:06)
 https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=2

@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
         <h1>Estos son las imagenes.</h1>
-        <Testimonio />
+        <Testimonio/>
       </div>
     </div>
   );

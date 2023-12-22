@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Testimonio.css';
 
 export const Testimonio = () => {//La función COMPONENTE reutilizable.
     return(//Devuelve la estructura.
@@ -10,7 +11,7 @@ export const Testimonio = () => {//La función COMPONENTE reutilizable.
             <div className="contenedor-texto-testimonio">
                 <p className="nombre-testimonio">Arbol</p>
                 <p className="cargo-testimonio">Dar el oxigeno</p>
-                <p className="texto-testimonio">Este arbol es muy bonito bla bla bla</p>
+                <p className="texto-testimonio">Este arbol es muy bonito bla bla blaaaaaaaaaaaaaaa</p>
             </div>
         </div>
     );
