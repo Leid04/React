@@ -4,9 +4,9 @@ Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender 
 
 Los proyectos se pueden crear rapidamente con:
 
-npx create-vite mi-app --template react         --> [npm install] npm run dev
-o
-npx create-react-app mi-app
+npx create-react-app NOMBRE --template cra-template-minimal     ---> Sin nada pero con dependencias
+npx create-vite NOMBRE --template react                         ---> Ligero (/index.html y npm install prop-types)
+npx create-react-app NOMBRE                                     ---> Completo
 
 > [!TIP]
 >## 📚 Recursos para Estudiar React:
