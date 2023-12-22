@@ -1,7 +1,7 @@
 const datosTestimonios = [
     {
       nombre: 'Arbol',
-      pais: 'Ucrania',
+      pais: 'Africa',
       imagen: 'imagen1',
       cargo: 'Dar el oxígeno',
       empresa: 'Mundo',
