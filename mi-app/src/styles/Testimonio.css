@@ -9,7 +9,7 @@
 }
 .contenedor-texto-testimonio{
     align-items: center;
-    padding: 40px;
+    padding: 50px;
     font-weight: 400;
     line-height: 1.4rem;
 }
@@ -21,6 +21,7 @@
 .imagen-testimonio{
     height: 100%;
     width: auto;
+    
 }
 .texto-testimonio{
     font-size: 1.1rem;

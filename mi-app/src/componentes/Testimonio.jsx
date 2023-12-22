@@ -1,17 +1,21 @@
 import React from 'react';
 import '../styles/Testimonio.css';
 
-export const Testimonio = () => {//La función COMPONENTE reutilizable.
+export const Testimonio = (props) => {//La función COMPONENTE reutilizable.
     return(//Devuelve la estructura.
         <div className="contenedor-testimonio">
             <img
                 className="imagen-testimonio" 
-                src={require("../imagenes/imagen1.jpg")}//Asi es como se insertan imagenes 
+                src={require(`../imagenes/${props.imagen}.jpg`)}//Asi es como se insertan imagenes 
                 alt="arbol"/>
             <div className="contenedor-texto-testimonio">
-                <p className="nombre-testimonio">Arbol</p>
-                <p className="cargo-testimonio">Dar el oxigeno</p>
-                <p className="texto-testimonio">Este arbol es muy bonito bla bla blaaaaaaaaaaaaaaa</p>
+                <strong>
+                    <p className="nombre-testimonio">{props.nombre} en {props.pais}</p>
+                </strong>
+                <p className="cargo-testimonio">{props.cargo} en {props.empresa}</p>
+                <i>
+                    <p className="texto-testimonio">"{props.testimonio}"</p>
+                </i>
             </div>
         </div>
     );
