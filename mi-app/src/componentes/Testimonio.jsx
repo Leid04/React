@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/Testimonio.css';
 
 export const Testimonio = (props) => {//La función COMPONENTE reutilizable.
@@ -7,7 +6,7 @@ export const Testimonio = (props) => {//La función COMPONENTE reutilizable.
             <img
                 className="imagen-testimonio" 
                 src={require(`../imagenes/${props.imagen}.jpg`)}//Asi es como se insertan imagenes 
-                alt="arbol"/>
+                alt="arbol" />
             <div className="contenedor-texto-testimonio">
                 <strong>
                     <p className="nombre-testimonio">{props.nombre} en {props.pais}</p>
