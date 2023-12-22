@@ -2,11 +2,19 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
+[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 3:52:00
+
+
 Los proyectos se pueden crear rapidamente con:
 
-npx create-react-app NOMBRE --template cra-template-minimal     ---> Sin nada pero con dependencias
+<pre>
+npx create-react-app NOMBRE --template cra-template-minimal<n>     ---> Sin nada pero con dependencias
 npx create-vite NOMBRE --template react                         ---> Ligero (/index.html y npm install prop-types)
 npx create-react-app NOMBRE                                     ---> Completo
+</pre>
+
+> [!IMPORTANT]
+>OW: LOS MODULOS DISTS, CACHES Y PLUGINS SE HAN MOVIDO A UNA CARPETA POR LO CUAL HABRÁ QUE CAMBIAR PATH EN TODO O HACERLO DE NUEVO.
 
 > [!TIP]
 >## 📚 Recursos para Estudiar React:
