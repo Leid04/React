@@ -10,8 +10,7 @@
     font-weight: bold;
     color: white;
     border: 2px solid white;
+    border-radius: 45px;
     cursor: pointer;
 }
-.botonBorrar:hover{
-    background-color: rgb(13, 202, 23);
-}
+.botonBorrar:hover{ background-color: rgb(13, 202, 23); }
