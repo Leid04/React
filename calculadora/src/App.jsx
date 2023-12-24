@@ -5,11 +5,18 @@ import Boton from './componentes/Boton.jsx';
 import Pantalla from './componentes/Pantalla.jsx';
 import BotonBorrar from './componentes/BotonBorrar.jsx';
 import { useState } from "react";//Importar hooks
+import { evaluate } from 'mathjs';//Libreria de js y jsx npm intall mathjs
 
 function App() {
-  const [input, setInput] = useState('');
-  const getInput = (val) => {
-    setInput(input + val);
+
+  const [input, setInput] = useState('');//Estado del input
+  const getInput = (val) => setInput(input + val);//Añadir al input valores
+  const calcularResultado = () => {//calcular el resultado
+    if(input && (/^[\d\s+\-*/.()]+$/.test(input))){
+      setInput(evaluate(input));
+    }else{
+        alert("Hay que ingresar valores para calcular");
+    }
   }
 
   return (
@@ -43,13 +50,13 @@ function App() {
           <Boton manejarClick={getInput}>*</Boton>
         </div>
         <div className="fila">
-          <Boton manejarClick={getInput}>=</Boton>
+          <Boton manejarClick={calcularResultado}>=</Boton>
           <Boton manejarClick={getInput}>0</Boton>
           <Boton manejarClick={getInput}>.</Boton>
           <Boton manejarClick={getInput}>/</Boton>
         </div>
         <div className="fila">
-          <BotonBorrar manejarClick={getInput}>C</BotonBorrar>
+          <BotonBorrar manejarClick={() => setInput('')}>C</BotonBorrar>
         </div>
       </div>
     </div>
