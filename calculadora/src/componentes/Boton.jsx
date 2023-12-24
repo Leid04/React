@@ -1,3 +1,5 @@
+import '../style/Boton.css';
+
 const Boton = (props) => {
     const esOperador = valor => isNaN(valor) && (valor !== '.') && (valor !== '=');
     return(
