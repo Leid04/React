@@ -3,6 +3,7 @@ import './App.css';
 import logo from './img/calculadora.jpg';
 import Boton from './componentes/Boton.jsx';
 import Pantalla from './componentes/Pantalla.jsx';
+import BotonBorrar from './componentes/BotonBorrar.jsx';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
           <Boton>.</Boton>
           <Boton>/</Boton>
         </div>
-        <div className="fila">Clear</div>
+        <div className="fila">
+          <BotonBorrar>C</BotonBorrar>
+        </div>
       </div>
     </div>
   );
