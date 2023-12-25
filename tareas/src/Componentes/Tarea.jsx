@@ -1,13 +1,14 @@
 import '../estilos/Tarea.css';
+import { AiOutlineCloseCircle} from 'react-icons/ai';//npm install react-icons --save
 
-const Tarea = ({ texto }) => {
+const Tarea = ({ texto, completada }) => {
     return(
-        <div className="tarea-contenedor">
+        <div className={completada? "tarea-contenedor completada" : "tarea-contenedor"}>
             <div className="tarea-texto">
                 {texto}
             </div>
-            <div className="tarea-icono">
-                Eliminar
+            <div className="tarea-contenedor-iconos">
+                <AiOutlineCloseCircle className="tarea-icono"/>
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import '../src/estilos/App.css';
 import Logo from './Componentes/Logo.jsx';
-import Tarea from './Componentes/Tarea.jsx';
+import TareaFormu from './Componentes/TareaFormu.jsx';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Logo />
       <div className="tareas-lista-principal">
         <h1>Mis tareas</h1>
-        <Tarea texto={'pringado'}/>
+        <TareaFormu />
       </div>
     </div>
   );

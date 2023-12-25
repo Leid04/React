@@ -25,3 +25,8 @@
     height: 25px;
     margin: 5px;
 }
+.tarea-contenedor.completada{
+    background-color: blueviolet;
+    text-decoration: line-through;
+    
+}   
