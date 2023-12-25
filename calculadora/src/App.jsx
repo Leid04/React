@@ -1,6 +1,6 @@
-import React from 'react';
 import './App.css';
-import logo from './img/calculadora.jpg';
+import React from 'react';
+import Logo from './componentes/Logo.jsx';
 import Boton from './componentes/Boton.jsx';
 import Pantalla from './componentes/Pantalla.jsx';
 import BotonBorrar from './componentes/BotonBorrar.jsx';
@@ -12,25 +12,20 @@ function App() {
   const [input, setInput] = useState('');//Estado del input
   const getInput = (val) => setInput(input + val);//Añadir al input valores
   const calcularResultado = () => {//calcular el resultado
-    if(input && (/^[\d\s+\-*/.()]+$/.test(input))){
+    if(input){
       setInput(evaluate(input));
     }else{
-        alert("Hay que ingresar valores para calcular");
+      alert("Hay que ingresar valores para calcular");
     }
   }
 
   return (
     <div className="App">
-      <div className="contenedor-logo">
-        <img 
-          src={logo} 
-          className='logo'
-          alt="Logo calculadora" />
-      </div>
+      <Logo />
       <div className="calculadora">
         <div className="pantalla">
           <Pantalla input={input} />
-          </div>
+        </div>
         <div className="fila">
           <Boton manejarClick={getInput}>1</Boton>
           <Boton manejarClick={getInput}>2</Boton>
