@@ -2,7 +2,7 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
-[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 5:20:00
+[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 6:15:00
 
 
 Los proyectos se pueden crear rapidamente con:
