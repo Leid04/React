@@ -2,7 +2,7 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
-[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 6:15:00
+[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 6:45:00
 
 
 Los proyectos se pueden crear rapidamente con:
@@ -41,3 +41,5 @@ git clone --depth 1 --branch main --single-branch --filter=blob:none --sparse ht
 - [**CodeSandbox - React Template**](https://codesandbox.io/s/new): Un entorno en línea para practicar React sin configuración previa.
 
 - [**Proyectos de React en GitHub**](https://github.com/topics/react): Explora proyectos reales en GitHub para aprender mejores prácticas y técnicas avanzadas.
+
+- [**Extension para React**](https://github.com/r5n-dev/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md): Entensión: dsznajder.es7-react-js-snippets 
