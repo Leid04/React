@@ -1,7 +1,7 @@
 import '../estilos/Tarea.css';
 import { AiOutlineCloseCircle} from 'react-icons/ai';//npm install react-icons --save
 
-const Tarea = ({ texto, completada }) => {
+export default function Tarea({ texto, completada }){
     return(
         <div className={completada? "tarea-contenedor completada" : "tarea-contenedor"}>
             <div className="tarea-texto">
@@ -13,4 +13,3 @@ const Tarea = ({ texto, completada }) => {
         </div>
     );
 }
-export default Tarea;

@@ -1,6 +1,6 @@
 import '../estilos/TareaFormu.css';
 
-const TareaFormu = ({ props }) => {
+export default function TareaFormu({ props }){
     return(
         <form action="" className="tarea-formulario">
             <input 
@@ -13,4 +13,3 @@ const TareaFormu = ({ props }) => {
         </form>
     );
 }
-export default TareaFormu;

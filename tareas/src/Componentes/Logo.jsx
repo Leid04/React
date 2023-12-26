@@ -1,5 +1,6 @@
 import logo from '../img/tarea.jpg';
-const Logo = () => {
+
+export default function Logo(){
     return(
       <div className="contenedor-logo">
         <img 
@@ -10,4 +11,3 @@ const Logo = () => {
       </div>
     );
 }
-export default Logo;
