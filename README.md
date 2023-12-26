@@ -13,6 +13,11 @@ npx create-vite NOMBRE --template react                         ---> Ligero (/in
 npx create-react-app NOMBRE                                     ---> Completo
 </pre>
 
+Como pesan mucho se recomienda alejarlos en github y bajar solo una carpeta del proyecto:
+
+git clone --depth 1 --branch main --single-branch --filter=blob:none --sparse https://github.com/leid04/React.git && cd React && git sparse-checkout set Calculadora
+
+
 > [!IMPORTANT]
 >OW: LOS MODULOS DISTS, CACHES Y PLUGINS SE HAN MOVIDO A UNA CARPETA POR LO CUAL HABRÁ QUE CAMBIAR PATH EN TODO O HACERLO DE NUEVO.
 
