@@ -2,16 +2,16 @@ import '../estilos/TareaFormu.css';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';//Generar una clave unica.
 
-export default function TareaFormu({ props }) {
+export default function TareaFormu(props) {
     const [input, setInput] = useState('');
   
     const manejarCambio = (evento) => setInput(evento.target.value);
   
     const manerarEnvio = (e) => {
       e.preventDefault();
-      console.log('Enviando formu');
+
       const tareaNueva = {
-        id: uuidv4,
+        id: uuidv4(),//Generación de la indentificación única.
         texto: input,
         completada: false
       };

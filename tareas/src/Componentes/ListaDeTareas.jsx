@@ -7,6 +7,7 @@ export default function ListaDeTareas() {
   const [tareas, setTareas] = useState([]);
   const agregarTarea = (tarea) => {
     console.log(tarea);
+    console.log('Tarea agreagada');
   }
 
   return (
