@@ -2,8 +2,7 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
-[**Curso que sigo en YouTube:**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=4&t=7926s): 6:45:00
-
+[**Curso que sigo en YouTube:**](https://youtu.be/6Jfk8ic3KVk?si=xs48L7oe9tsAak8a): 7:12:00
 
 Los proyectos se pueden crear rapidamente con:
 
@@ -15,19 +14,23 @@ npx create-react-app NOMBRE                                     ---> Completo
 
 Como pesan mucho se recomienda alejarlos en github y bajar solo una carpeta del proyecto:
 
-git clone --depth 1 --branch main --single-branch --filter=blob:none --sparse https://github.com/leid04/React.git && cd React && git sparse-checkout set Calculadora
+> [!IMPORTANT] 
+>Cuidado con este comando porque da problemas
+>git clone --depth 1 --branch main --single-branch --filter=blob:none --sparse https://github.com/leid04/React.git && cd React && git sparse-checkout >set Calculadora
 
 > [!IMPORTANT]
 >OW: LOS MODULOS DISTS, CACHES Y PLUGINS SE HAN MOVIDO A UNA CARPETA POR LO CUAL HABRÁ QUE CAMBIAR PATH EN TODO O HACERLO DE NUEVO.
 
 > [!TIP]
->## 📚 Recursos para Estudiar React:
+>## 📚 Recursos para React:
 
-- [**Curso React 1: Aprende React desde cero**](https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=2&t=12623s): Curso gratuito para principiantes con práctica incluida.
+- [**Curso FullStack de React**](https://fullstackopen.com/es/#course-contents): Curso completo de React.
 
-- [**Curso React 2: React desde cero en Udemy**](https://www.udemy.com/course/react-js-para-principiantes-desde-cero-curso-gratuito/): Otro curso gratuito para principiantes con ejercicios prácticos.
+- [**Aprende React desde cero + practica**](https://youtu.be/6Jfk8ic3KVk?si=xs48L7oe9tsAak8a): Curso gratuito de freecodecamp.
 
-- [**Documentación Oficial de React**](https://reactjs.org/): La mejor fuente para comprender los conceptos fundamentales y aprender las últimas actualizaciones de React.
+- [**React desde cero en Udemy**](https://www.udemy.com/course/react-js-para-principiantes-desde-cero-curso-gratuito/): Otro curso gratuito para principiantes con ejercicios prácticos.
+
+- [**Componentes de React**](https://react.keepdesign.io/): Usa componentes react instalando la librería.
 
 - [**React Router**](https://reactrouter.com/): Explora cómo manejar el enrutamiento en aplicaciones React.
 
@@ -35,8 +38,12 @@ git clone --depth 1 --branch main --single-branch --filter=blob:none --sparse ht
 
 - [**Redux**](https://redux.js.org/): Descubre cómo manejar el estado en aplicaciones más grandes.
 
+- [**Documentación Oficial de React**](https://reactjs.org/): La mejor fuente para comprender los conceptos fundamentales y aprender las últimas actualizaciones de React.
+
 > [!TIP]
 >## 💻 Páginas para Practicar React:
+
+- [**MUY RECOMENDABLE PARA REACT Y OTRAS COSAS**](https://devchallenges.io/): Plataforma para practicar programación incluyendo React.
 
 - [**CodeSandbox - React Template**](https://codesandbox.io/s/new): Un entorno en línea para practicar React sin configuración previa.
 
