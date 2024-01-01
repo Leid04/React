@@ -2,8 +2,6 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
-[**Curso que sigo en YouTube:**](https://youtu.be/6Jfk8ic3KVk?si=xs48L7oe9tsAak8a): 7:12:00
-
 Los proyectos se pueden crear rapidamente con:
 
 <pre>
@@ -26,7 +24,7 @@ Como pesan mucho se recomienda alejarlos en github y bajar solo una carpeta del 
 
 - [**Curso FullStack de React**](https://fullstackopen.com/es/#course-contents): Curso completo de React.
 
-- [**Aprende React desde cero + practica**](https://youtu.be/6Jfk8ic3KVk?si=xs48L7oe9tsAak8a): Curso gratuito de freecodecamp.
+- [**Aprende React desde cero + practica**](https://youtu.be/6Jfk8ic3KVk?si=xs48L7oe9tsAak8a): Curso gratuito de freecodecamp. OJO, hasta 7:12:00
 
 - [**React desde cero en Udemy**](https://www.udemy.com/course/react-js-para-principiantes-desde-cero-curso-gratuito/): Otro curso gratuito para principiantes con ejercicios prácticos.
 

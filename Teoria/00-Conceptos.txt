@@ -16,6 +16,7 @@ Los componentes en React están "hechos" de elementos.
             -Debe extender React.Component
             -Debe tener un método render() para retornar un elemento de JSX.
             -Puede recibir valores si es necesario.
+        Metodo: funcion asociada a un componente que puede acceder y usar su estado.
 
 Reglas de JSX:
     -Debe retornar un elemento React (JSX).
@@ -41,6 +42,7 @@ verán los componentes usando una estructura similar a HTML.(Es opcional.)
         -Errores y advertencias más útiles.
 
 Elemento: unidades más pequeñas y básicas en React. Definen lo que se ve en la pantalla.
+         pueden ser anidados para estructuras mas complejas.
 
 React DOM: Paquete que facilita la interación y actualización del DOM en aplicaciones React.
 
@@ -54,10 +56,3 @@ Atributos: podemos agregarlos para especificar ciertas características.
 El atributo style acepta un objeto JS con propiedades CSS escritas en camelCase
     Ej: background-image => backgroundImage
 ------------------------------------------------------------------------------------------------
-Estructura:
-
-Los elementos pueden ser anidados para estructuras mas complejas.
-
-
-Fuente: (Hasta 2:12:06)
-https://www.youtube.com/watch?v=6Jfk8ic3KVk&list=WL&index=2
