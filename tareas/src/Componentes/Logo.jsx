@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div className="contenedor-logo">
       <img 
-        src={logo}
+        src={logo}//Aqui la imagen.
         alt="Dalas" 
         className="logo" 
       />
