@@ -170,3 +170,22 @@ Creación de pseudo-interceptores
   -Los interceptores permiten generalizar determinadas lógicas para todas las peticiones salientes
   -Fetch no proporciona soporte para interceptores de forma nativa, pero hay muchas maneras de emular el mismo comportamiento
   -La propuesta aquí es una de las soluciones más simples posibles */
+// Función interceptor de solicitud
+const requestInterceptor = async (url, options) => {
+  console.log('Interceptando solicitud:', { url, options });
+  const response = await fetch(url, options);
+  console.log('Interceptando respuesta:', response);
+  return response;
+};
+
+// Función para realizar una solicitud con interceptor
+const makeRequest = async (url, options) => await requestInterceptor(url, options);
+
+// Ejemplo de uso
+const apiUrl = 'https://api.example.com/data';
+const requestOptions = { method: 'GET', headers: { 'Content-Type': 'application/json' } };
+
+makeRequest(apiUrl, requestOptions)
+  .then(response => response.json())
+  .then(data => console.log('Datos obtenidos:', data))
+  .catch(error => console.error('Error en la solicitud:', error));
