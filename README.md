@@ -2,8 +2,9 @@
 ># 🌟 Aprendizaje de React 2024: Recursos 🚀
 Mi bitácora de aprendizaje de React. Aquí encontrarás recursos para aprender y practicar React.
 
-Los proyectos se pueden crear rapidamente con:
+Atención: Todos lo proyectos que se han desarrollado en este repo se han movido a su repo correspondiente.
 
+Los proyectos se pueden crear rapidamente con:
 <pre>
 npx create-react-app NOMBRE --template cra-template-minimal<n>     ---> Sin nada pero con dependencias
 npx create-vite NOMBRE --template react                         ---> Ligero (/index.html y npm install prop-types)
